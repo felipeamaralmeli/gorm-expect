@@ -3,9 +3,9 @@ package gormexpect
 import (
 	"reflect"
 
+	sqlmock "github.com/DATA-DOG/go-sqlmock"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/jinzhu/gorm"
-	sqlmock "gopkg.in/DATA-DOG/go-sqlmock.v1"
 )
 
 // AdapterFactory is a generic interface for arbitrary adapters that satisfy

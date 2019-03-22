@@ -1,7 +1,7 @@
 package gormexpect
 
 import (
-	sqlmock "gopkg.in/DATA-DOG/go-sqlmock.v1"
+	sqlmock "github.com/DATA-DOG/go-sqlmock"
 )
 
 // ExecExpectation is returned by Expecter. It exposes a narrower API than
